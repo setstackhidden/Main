@@ -86,3 +86,4 @@ string_find = clonefunction(string["find"]);
 
 coroutine_close = clonefunction(coroutine["close"]);
 coroutine_yield = clonefunction(coroutine["yield"]);
+coroutine_wrap = clonefunction(coroutine["wrap"]);
