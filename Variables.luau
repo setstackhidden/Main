@@ -1,0 +1,88 @@
+players = cloneref(game:GetService("Players"));
+local_player = players["LocalPlayer"];
+
+workspace = cloneref(game:GetService("Workspace"));
+camera = workspace["CurrentCamera"];
+debris = cloneref(game:GetService("Debris"));
+
+replicated_storage = cloneref(game:GetService("ReplicatedStorage"));
+replicated_first = cloneref(game:GetService("ReplicatedFirst"));
+
+chat_service = cloneref(game:GetService("TextChatService"));
+user_input_service = cloneref(game:GetService("UserInputService"));
+
+run_service = cloneref(game:GetService("RunService"));
+sound_service = cloneref(game:GetService("SoundService"));
+lighting = cloneref(game:GetService("Lighting"));
+
+collection_service = cloneref(game:GetService("CollectionService"));
+script_context = cloneref(game:GetService("ScriptContext"));
+log_service = cloneref(game:GetService("LogService"));
+hui = cloneref(gethui());
+
+
+math_random = clonefunction(math["random"]);
+math_floor = clonefunction(math["floor"]);
+math_clamp = clonefunction(math["clamp"]);
+math_max = clonefunction(math["max"]);
+math_min = clonefunction(math["min"]);
+math_abs = clonefunction(math["abs"]);
+math_deg = clonefunction(math["deg"]);
+math_atan2 = clonefunction(math["atan2"]);
+math_tan = clonefunction(math["tan"]);
+math_sin = clonefunction(math["sin"]);
+math_cos = clonefunction(math["cos"]);
+math_rad = clonefunction(math["rad"]);
+math_sqrt = clonefunction(math["sqrt"]);
+math_ceil = clonefunction(math["ceil"]);
+
+math_pi = math["pi"];
+
+
+os_clock = clonefunction(os["clock"]);
+
+task_wait = clonefunction(task["wait"]);
+task_spawn = clonefunction(task["spawn"]);
+task_delay = clonefunction(task["delay"]);
+
+table_sort = clonefunction(table["sort"]);
+table_pack = clonefunction(table["pack"]);
+table_unpack = clonefunction(table["unpack"]);
+table_insert = clonefunction(table["insert"]);
+table_clear = clonefunction(table["clear"]);
+table_remove = clonefunction(table["remove"]);
+table_concat = clonefunction(table["concat"]);
+table_freeze = clonefunction(table["freeze"]);
+table_find = clonefunction(table["find"]);
+
+color3_new = clonefunction(Color3["new"]);
+color3_fromrgb = clonefunction(Color3["fromRGB"]);
+color_sequence_new = clonefunction(ColorSequence["new"]);
+color_sequence_keypoint_new = clonefunction(ColorSequenceKeypoint["new"]);
+color3_fromhex = clonefunction(Color3["fromHex"]);
+
+number_range_new = clonefunction(NumberRange["new"])
+number_sequence_new = clonefunction(NumberSequence["new"]);
+number_sequence_keypoint_new = clonefunction(NumberSequenceKeypoint["new"]);
+
+vector2_new = clonefunction(Vector2["new"]);
+vector3_new = clonefunction(Vector3["new"]);
+vector3_zero = Vector3["zero"];
+
+
+cframe_new = clonefunction(CFrame["new"]);
+cframe_angles = clonefunction(CFrame["Angles"]);
+cframe_fromeuleranglesxyz = clonefunction(CFrame["fromEulerAnglesXYZ"]);
+
+udim_new = clonefunction(UDim["new"]);
+udim2_new = clonefunction(UDim2["new"]);
+udim2_from_offset = clonefunction(UDim2["fromOffset"]);
+
+game_id = game["GameId"];
+
+debug_info = clonefunction(debug["info"]);
+
+string_find = clonefunction(string["find"]);
+
+coroutine_close = clonefunction(coroutine["close"]);
+coroutine_yield = clonefunction(coroutine["yield"]);
