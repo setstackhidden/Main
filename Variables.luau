@@ -18,6 +18,9 @@ lighting = cloneref(game:GetService("Lighting"));
 collection_service = cloneref(game:GetService("CollectionService"));
 script_context = cloneref(game:GetService("ScriptContext"));
 log_service = cloneref(game:GetService("LogService"));
+
+teleport_service = cloneref(game:GetService("TeleportService"));
+group_service = cloneref(game:GetService("GroupService"));
 hui = cloneref(gethui());
 
 
