@@ -23,6 +23,7 @@ teleport_service = cloneref(game:GetService("TeleportService"));
 group_service = cloneref(game:GetService("GroupService"));
 user_service = cloneref(game:GetService("UserService"));
 http_service = cloneref(game:GetService("HttpService"));
+tween_service = cloneref(game:GetService("TweenService"));
 hui = cloneref(gethui());
 
 
