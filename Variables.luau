@@ -24,6 +24,9 @@ http_service = cloneref(game:GetService("HttpService"));
 tween_service = cloneref(game:GetService("TweenService"));
 hui = cloneref(gethui());
 
+script_context = cloneref(game:GetService("ScriptContext"));
+log_service = cloneref(game:GetService("LogService"));
+
 
 math_random = clonefunction(math["random"]);
 math_floor = clonefunction(math["floor"]);
