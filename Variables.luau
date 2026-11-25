@@ -90,6 +90,7 @@ instance_new = clonefunction(Instance["new"]);
 
 debug_info = clonefunction(debug["info"]);
 
+string_lower = clonefunction(string["lower"]);
 string_find = clonefunction(string["find"]);
 
 coroutine_close = clonefunction(coroutine["close"]);
